@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Pollution</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 18px;
+        }
+
+
+        section {
+            width: 74vw;
+            margin: 10px auto;
+            border-radius: 10px;
+            box-shadow: 1px 1px 8px;
+            padding: 51px 51px;
+            word-spacing: 3px;
+            /* text-align: justify; */
+            line-height: 23px;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Z9RfFnn1z_d-K2SM-k-owYfG8CAa3qOkbQcHEWcNkn5h9vmgm6R2Arz8E9d-qKaO7Nw&usqp=CAU");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("https://png.pngtree.com/element_pic/00/16/10/16580393979a4fe.jpg");
+
+
+        }
+
+
+        .introduction {
+            opacity: 1;
+        }
+
+        .prevention-heading,
+        .cause-heading,
+        .effect-heading,
+        .impact-heading {
+
+            font-size: 22px;
+            font-weight: 800;
+            text-decoration: underline;
+            line-height: 31px;
+        }
+
+        .case-study-info {
+            font-size: 29px;
+            font-weight: 800;
+            text-decoration: underline;
+            line-height: 46px;
+        }
+
+        h1 {
+            line-height: 74px;
+            font-size: 38px;
+            font-weight: 800;
+            text-decoration-line: underline;
+            color: rgb(95, 117, 8);
+            text-align: center;
+            line-height: 65px;
+            font-size: 39px;
+        }
+
+        h2 {
+            line-height: 54px;
+            font-size: 38px;
+            font-weight: 800;
+            text-decoration-line: underline;
+        }
+
+        .nested-ol-list {
+            list-style-type: lower-roman;
+        }
+
+        .nested-ul-list {
+            list-style-type: disc;
+        }
+
+        .case-study-video {
+
+            width: 60vw;
+            height: 54vh;
+            overflow: auto;
+            border-radius: 10px;
+            border: 5px solid black;
+
+        }
+
+        p span {
+            font-size: 30px;
+            font-weight: 900;
+            text-decoration: underline;
+            margin: 7px;
+        }
+
+        .cause-img,
+        .impact-img,
+        .type-img {
+            width: 30vw;
+            height: 42vh;
+            overflow-y: scroll;
+            width: 60vw;
+            height: 62vh;
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+
+        .case-study-img {
+            width: 30vw;
+            height: 52vh;
+            overflow-y: scroll;
+            width: 60vw;
+            height: 62vh;
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+
+        .div-foot {
+            width: 100%;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            padding: 21px;
+            margin: 42px 0px 0px 0px;
+            height: 40vh;
+        }
+
+        .div-foot-info {
+            width: 33%;
+            padding: 10px;
+            margin: 10px;
+            height: 20vh;
+
+
+        }
+
+        .div-foot-college {
+            width: 26%;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            height: 20vh;
+
+        }
+
+        .div-foot-contact {
+            width: 33%;
+            padding: 10px;
+            margin: 10px;
+            height: 20vh;
+            text-align: center;
+
+
+        }
+
+        h3 {
+            font-size: 33px;
+            text-align: center;
+        }
+
+        .div-foot-info:hover,
+        .div-foot-college:hover,
+        .div-foot-contact:hover {
+            color: rgb(40, 186, 40);
+        }
+
+        h3 {
+            color: rgb(191, 49, 238)
+        }
+
+       
+          .ahref{
+            position:absolute;
+            left:10px;
+        left:1072px;
+          }  
+          
+header {
+    width: 100%;
+    
+}
+main{
+    margin-top: 30px;
+
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    font-size: 1.5rem;
+    background-color: white;
+    height: 76px;
+    background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #82bc23 74%);
+}
+
+.header-1-subclass-1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 49%;
+    padding: 20px;
+    margin-left: 10px;
+
+}
+.header-1-subclass-2 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 20%;
+    padding: 20px;
+    margin-right: 10px;
+}
+.header-2-subclass-1 a{
+    text-decoration: none;
+    color:white;
+}
+.header-1-subclass-2 button:hover{
+    background-color: rgb(156, 230, 46);
+    height:40px;
+    width:100px;
+    border-radius: 5px;
+}
+.header-1-subclass-2 button{
+    height:34px;
+    padding:5px;
+}
+.project a h2:hover{
+    color:rgb(14, 148, 16);
+
+}
+a{
+    text-decoration: none;
+}
+.pro:hover{
+    text-decoration:solid;
+    color:rgb(137, 215, 19);
+}
+h2 span{
+    color:black;
+    font-size: 35px;
+  position: relative;
+  top: -11px;
+}
+         
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header-1">
+                <div class="header-1-subclass-1">
+                    <h2><span>Bhoomi.com</span></h2>
+                    <a href="index.html" target="_blank">
+                        <p>Home</p>
+                    </a>
+                    <a href="about_us.html">
+                        <p>About us</p>
+                    </a>
+                </div>
+                <div class="header-1-subclass-2">
+                    <a href="login.html" target="_blank">
+                        <p>login</p>
+                    </a>
+                    <a href="signup.html" target="_blank">
+                        <p>signup</p>
+                    </a>
+                </div>
+            </div>
+    <main>
+        <section>
+
+            <div class="introduction">
+                <h1>Importance of Soil and its Role in the Environment:</h1>
+                <p>
+                    Soil is a vital component of our planet's ecosystem, playing a crucial role in supporting life and
+                    maintaining ecological balance. It serves as a foundation for plant growth, providing essential
+                    nutrients and water for various vegetation. Additionally, soil acts as a habitat for a diverse range
+                    of organisms, from microorganisms to larger animals, contributing to the overall biodiversity of the
+                    Earth
+                    .</p>
+                <p>
+                    Furthermore, soil serves as a natural filter, purifying water as it percolates through the layers,
+                    ensuring the availability of clean and potable water for both humans and wildlife. Its ability to
+                    store carbon also makes it an important player in the regulation of greenhouse gases and climate
+                    stability. In essence, soil is a fundamental pillar of sustainable life on Earth, making its
+                    conservation and protection imperative for the well-being of our planet.
+
+                </p>
+                <p>
+                    Soil pollution is the process by which soil is displaced or moved from one place to another by natural
+                    forces such as wind, water, or human activities. It is a widespread environmental issue that can
+                    have far-reaching consequences for ecosystems, agriculture, and human settlements. Pollution occurs
+                    when the land's natural ability to retain soil particles is compromised, often leading to the loss
+                    of fertile topsoil and essential nutrients.
+
+                </p>
+                <p>
+                    Understanding the dynamics of soil pollution involves recognizing the interplay between various
+                    factors, including climatic conditions, topography, vegetation cover, and land use practices. By
+                    comprehending the causes and mechanisms of soil erosion, we can implement effective strategies to
+                    prevent and mitigate its detrimental effects, ensuring the long-term sustainability of our natural
+                    resources and the health of our environment.
+                </p>
+            </div>
+            <br>
+            <div class="cause">
+                <h1>Causes of Soil Pollution: </h1>
+                <p>
+                    <b>Soil Pollution</b> is the process of the detachment and transportation of soil particles by various
+                    natural forces, primarily water and wind. It occurs due to a combination of natural factors and
+                    human activities. Here is an elaboration of the causes of soil pollution :
+                </p>
+                <ol>
+                    <li class="cause-heading"> Natural Factors Contributing to Soil Pollution:</li>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>Volcanic Activity :</b><br>Emissions: Volcanic eruptions release gases, ash, and lava that can deposit heavy metals and other pollutants onto soil surfaces.
+                            Acid Rain: Volcanic eruptions can also contribute to acid rain, which can leach minerals and increase soil acidity.
+                        </li>
+                        <li>
+                            <b>Weathering of rocks:</b> <br>Chemical Weathering: Natural processes such as the breakdown of rocks can release minerals and metals into the soil, contributing to soil pollution.
+                            Erosion: Soil erosion due to weathering can transport pollutants from one area to another, affecting soil quality.
+                        </li>
+                        <li>
+                            <b>Wildfires: </b><br>Ash Deposition: Wildfires release ash and other combustion by-products that can deposit onto soil surfaces, introducing pollutants and altering soil composition.
+                            Leaching: Ash from wildfires can leach nutrients and contaminants into the soil, affecting soil fertility and quality.
+                        </li>
+                        <li>
+                            <b>Natural Radioactivity: </b><br>Radionuclides: Naturally occurring radioactive elements in the soil, such as uranium and radium, can contribute to soil pollution.
+                            Radon Gas: Radon gas, a radioactive gas released from the decay of uranium in soil and rocks, can accumulate in indoor environments, posing health risks.
+                        </li>
+                        <br>
+                        <div class="cause-img">
+                            <p><span>Volcanic Activity</span></p>
+                            <img src="data:image/jpeg;base64,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" width="770px">
+                            <p><span>Weathering of rocks</span></p>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTguXgKSh02OD1qbz9zYvqnb_JfBDSx8YeS_A&s"
+                                width="770px">
+                            <p><span>Wildfires</span></p>
+                            <img src="data:image/jpeg;base64,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"
+                                width="770px">
+
+                        </div>
+                    </ol>
+                    <br>
+                    <li class="cause-heading"> Human Activities and Their Impact on Soil Pollution:</li>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>Deforestation: </b><br>Human-driven activities such as logging, urban expansion, and
+                            agriculture often involve the clearing of forests. Deforestation leads to the removal of
+                            trees and plant cover that serve as protective barriers against soil pollution. The exposed
+                            soil becomes more susceptible to the forces of nature, resulting in increased pollution rates.
+                        </li>
+                        <li>
+                            <b>Overgrazing:</b><br>Excessive grazing by livestock, beyond the carrying capacity of the
+                            land, can lead to the degradation of vegetation cover. Overgrazing reduces the protective
+                            layer of grass and plants, making the soil more vulnerable to pollution by water and wind.
+                        </li>
+                        <li>
+                            <b>Improper Agricultural Practices: </b><br>Unsustainable farming practices, including
+                            intensive tilling, monoculture farming, and inadequate soil conservation techniques,
+                            contribute to soil pollution. Poorly managed irrigation systems can also lead to the
+                            accumulation of salt in the soil, degrading its quality and exacerbating erosion.
+                        </li>
+                        <li>
+                            <b>Construction and Urbanization: </b><br>Urban development, road construction, and other
+                            human activities involving land disturbance can disrupt the natural soil structure. The
+                            clearing of land and the use of heavy machinery can compact the soil, reducing its ability
+                            to absorb water and increasing the risk of erosion during rainfall events.
+                        </li>
+                        <li>
+                            <b>Mining: </b><br> mining practices can lead to the removal of vegetation and
+                            topsoil, causing extensive soil pollution. Surface mining, in particular, can disrupt the
+                            natural soil structure and drainage patterns, increasing the risk of erosion.
+                        </li>
+                        <li>
+                            <b>Land Management:</b>
+                        </li>A lack of proper land management practices, such as contour farming, buffer strips, and
+                        erosion control structures, can contribute to soil pollution.
+                        <br>
+                        <div class="cause-img">
+                            <p><span>Deforestation</span></p>
+                            <img src="https://www.conserve-energy-future.com/wp-content/uploads/2013/03/deforestation-logging-cut-forests.jpg"
+                                width="770px">
+                            <p><span>Overgrazing</span></p>
+                            <img src="https://www.fao.org/fileadmin/templates/faohome/images/feature_bar/3_action-against-desertification.jpg"
+                                width="770px">
+                            <p><span>Improper Agricultural Practices:</span></p>
+                            <img src=" https://qph.cf2.quoracdn.net/main-qimg-590b2d95b84125e7964b93e0f69109bd-lq"
+                                width="770px">
+                            <p><span>Construction and Urbanization:</span></p>
+                            <img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20210309-d7884-73084"
+                                width="770px">
+                            <p><span>Mining:</span></p>
+                            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/11/10/08/rts1hb7i.jpg?width=1200&height=1200&fit=crop"
+                                width="770px">
+                        </div>
+                    </ol>
+                </ol>
+            </div>
+            <br>
+            <div class="effect">
+                <h1>Effect of soil pollution</h1>
+                <ol>
+                    <li class="effect-heading">Impact on Agriculture and Food Security:</li>
+                    <p>
+                        Soil pollution has far-reaching consequences for agricultural productivity and global food
+                        security. The implications of soil pollution on agriculture can be dire, affecting both crop yield
+                        and quality. Here's how soil pollution impacts agriculture and food security:
+                    </p>
+
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>Reduced soil fertility: </b> Contaminants such as heavy metals, pesticides, and industrial chemicals can degrade soil fertility by altering its chemical composition and disrupting essential nutrient cycles.
+                        </li>
+                        <li>
+                            <b>Crop Contamination:</b><br> Pollutants present in the soil can be taken up by plants and accumulate in edible parts, leading to contaminated crops. This contamination poses risks to human health and can result in economic losses for farmers.
+                        </li>
+                        <li>
+                            <b>Decreased Crop Yields: </b><br>Soil pollution can impair plant growth and development, resulting in reduced crop yields and agricultural productivity. This can have significant implications for food production and supply.
+                        </li>
+                        <li>
+                            <b>Loss of Biodiversity: </b><br>Soil pollution can negatively impact soil microorganisms, earthworms, and other beneficial organisms essential for maintaining soil health and fertility. Loss of biodiversity can further exacerbate agricultural challenges.
+
+                    </ol>
+                    <li class="effect-heading">Consequences for Biodiversity and Ecosystems:</li>
+                    <p>
+                        Soil pollution has significant consequences for biodiversity and ecosystems, disrupting delicate ecological balances and threatening the health of entire ecosystems. Here's how you can discuss these impacts on your website:
+                    </p>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>Loss of Biodiversity: </b><br>Microbial Diversity: Soil pollution can reduce the diversity and abundance of soil microorganisms essential for nutrient cycling, decomposition, and soil fertility.
+                            
+                            Plant Species: Contaminated soils may inhibit the growth of certain plant species, leading to a loss of plant biodiversity and altering ecosystem structure and function.
+                            
+                            Fauna: Soil pollution can harm soil-dwelling organisms such as earthworms, insects, and small mammals, disrupting food chains and reducing overall biodiversity.
+                        </li>
+                        <li>
+
+                            <b>Disruption of Ecosystem Services: </b><br>Nutrient Cycling: Soil pollution can disrupt nutrient cycling processes, affecting the availability of essential nutrients for plants and microorganisms.
+                            Water Filtration: Contaminated soils may compromise their ability to filter and purify water, leading to water pollution and further environmental degradation.
+                            Carbon Sequestration: Pollution-induced changes in soil structure and microbial communities can impede carbon sequestration processes, contributing to climate change.
+                        </li>
+                        <li>
+
+                            <b>Habitat Degradation: </b><br>Loss of Habitat: Soil pollution can degrade or destroy habitats for various plant and animal species, reducing overall habitat quality and availability.
+                            Fragmentation: Contaminated soils may fragment habitats, isolating populations and limiting gene flow, which can lead to decreased genetic diversity and increased vulnerability to environmental stressors.
+                        </li>
+                        <li>
+                            <b> Ecological Imbalance: </b><br>Species Interactions: Soil pollution can disrupt ecological interactions such as predation, competition, and mutualism, leading to imbalances in ecosystem dynamics.
+                            Invasive Species: Contaminated soils may create conditions favorable for the establishment and spread of invasive plant species, further threatening native biodiversity.
+                        </li>
+                    </ol>
+                </ol>
+            </div>
+            <br>
+            <div class="type">
+                <h1> Type of Soil pollution</h1>
+                <p>
+                    
+Soil pollution can arise from various sources and can involve different types of contaminants. Here are some common types of soil pollution:
+                </p>
+                <ol>
+                    <li><strong>Chemical Pollution: </strong></li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Description: </em>Heavy Metals: Contamination with heavy metals such as lead, mercury, cadmium, and arsenic, often originating from industrial activities, mining, and improper waste disposal.
+                            Pesticides and Herbicides: Residues of agricultural chemicals used for pest control and weed management, which can persist in the soil and affect soil health.
+                            Industrial Chemicals: Release of pollutants such as solvents, oils, acids, and toxic chemicals from industrial processes and manufacturing activities.
+
+                        </li>
+                        
+                    </ul>
+                    <li><strong>Organic Pollution: </strong></li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Description: </em> Petroleum Hydrocarbons: Contamination from spills of petroleum products such as gasoline, diesel, and lubricants, which can degrade soil quality and harm soil organisms.
+                            Polycyclic Aromatic Hydrocarbons (PAHs): Accumulation of PAHs from sources like combustion processes, waste incineration, and vehicle emissions, posing risks to soil and human health.
+                            Organic Solvents: Presence of volatile organic compounds (VOCs) and other organic solvents from industrial activities, which can contaminate soil and groundwater.
+                        </li>
+                        
+                    </ul>
+                    <li><strong>Agricultural Pollution: </strong></li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Description: </em>Nitrate and Phosphate: Excessive application of nitrogen and phosphorus fertilizers, leading to soil nutrient imbalances and contamination of water bodies through runoff and leaching.
+                            Agrochemicals: Use of pesticides, herbicides, and fungicides in agriculture, which can persist in the soil, accumulate over time, and harm soil organisms and ecosystems.
+                        </li>
+                        
+                    </ul>
+                    <li><strong>Thermal Pollution: </strong></li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Description: </em>Heat: Soil temperature elevation due to industrial activities, urbanization, and waste heat discharge, which can affect soil microbial communities and ecosystem processes.
+                        </li>
+                        
+                    </ul>
+                    <li><strong>Plastic Pollution:</strong></li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Description: </em> Microplastics: Accumulation of plastic particles in soil from sources like plastic mulches, synthetic fibers, and microplastic pollution, posing risks to soil health and biota.
+                        </li>
+                       
+                    </ul>
+                    <li><strong>Biological Pollution:</strong></li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Description: </em>Pathogens: Presence of harmful microorganisms such as bacteria, viruses, and parasites in the soil, originating from sewage sludge, animal waste, and contaminated water.
+                        </li>
+                        
+                    </ul>
+                    <li><strong>Radioactive Pollution:</strong></li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Description: </em>Radionuclides: Contamination with radioactive elements such as uranium, radium, and cesium, often stemming from nuclear accidents, radioactive waste disposal, and mining activities.
+                        </li>
+
+                    <div class="type-img">
+                        <p><span>Chemical Pollution</span></p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5UDgceTj9InoZATx6zkPvcFi61nNb12G5GnE4GzGMyA&s"
+                            width="780px">
+                        <p><span>Organic Pollution</span></p>
+                        <img src="data:image/jpeg;base64,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"
+                            width="780px">
+                        <p><span>Agriculture Pollution</span></p>
+                        <img src="data:image/jpeg;base64,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"
+                            width="780px">
+                        <p><span>Thermal Pollution</span></p>
+                        <img src="data:image/jpeg;base64,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"
+                            width="780px">
+                        <p><span>Biological Pollution</span></p>
+                        <img src="data:image/jpeg;base64,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"
+                            width="780px">
+                        
+                    </div>
+
+                </ol>
+            </div>
+            <br>
+            <div class="prevention">
+                <h1>Prevention and Control of Soil Pollution
+                </h1>
+                <p>
+                    Soil Pollution is a widespread environmental problem that can have devastating consequences. To
+                    mitigate its impact, it is essential to implement various methods and techniques to prevent and
+                    control soil pollution. Whether you are a farmer, forester, land developer, or simply a concerned
+                    individual, here are some best practices and strategies that can help:
+                </p>
+                <ol>
+                    <li class="prevention-heading"> Sustainable Agriculture Practices: </li>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>Terracing: </b><br>Implement terraces on hilly or sloping farmland. Terraces help to slow
+                            down the flow of water, allowing it to infiltrate the soil rather than wash it away.
+                        </li>
+                        <li>
+                            <b>Contour farming: </b><br> Plow and plant crops parallel to the contour of the land,
+                            following the natural curves. This reduces the speed at which water runs downhill,
+                            minimizing pollution and erosion.
+                        </li>
+                        <li>
+                            <b>No Till farming: </b><br> Reduce or eliminate tillage, which can disturb the soil
+                            structure and make it more susceptible to pollution. No-till farming helps retain organic
+                            matter and stabilize the soil.
+                        </li>
+                        <li>
+                            <b>Crop Rotation and Cover Crop: </b><br> Rotate crops to maintain soil health and
+                            structure. Plant cover crops like legumes and grasses during the off-season to protect the
+                            soil from erosion and pollution.
+                        </li>
+                        <li>
+                            <b>Agroforestry: </b><br>Integrate trees and shrubs into farming systems. Tree roots help
+                            anchor the soil, and their canopies reduce the impact of raindrops on the ground.
+
+                        </li>
+                    </ol>
+                    <br>
+                    <li class="prevention-heading">Forestry and Land Management:</li>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>Reforesetation: </b><br> Replant trees in areas where deforestation has occurred to
+                            restore soil stability and prevent pollution.
+                        </li>
+                        <li>
+                            <b>Selective-logging: </b><br>Use sustainable logging practices that minimize soil
+                            disturbance and avoid clear-cutting.
+                        </li>
+                        <li>
+                            <b>Riparian Buffer Zone: </b><br> Establish buffer zones of native vegetation along water
+                            bodies to prevent soil pollution and filter runoff.
+                        </li>
+                    </ol>
+                    <br>
+                    <li class="prevention-heading">Construction and Urban Development: </li>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>Sediment Basins and Silt Fences: </b><br>Implement erosion control measures on
+                            construction sites, such as sediment basins and silt fences, to trap and filter
+                            sediment-laden runoff.
+                        </li>
+                        <li>
+                            <b> Permeable Pavement: </b><br>Use permeable materials for roads and parking lots to allow
+                            water to infiltrate rather than runoff.
+                        </li>
+                        <li>
+                            <b> Erosion Control Blankets and Matting: </b><br>Use erosion control blankets and matting
+                            on exposed soil surfaces to prevent pollution and encourage vegetation growth.
+                        </li>
+                    </ol>
+                    <br>
+                    <li class="prevention-heading">Watershed Management:</li>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>Watershed Planning: </b><br>Develop comprehensive watershed management plans that address
+                            soil erosion as a part of the larger water resource management strategy.
+                        </li>
+                        <li>
+                            <b>Soil Testing and Analysis: </b><br>Regularly test and analyze the soil to assess its
+                            health and make informed decisions about land use and management.
+                        </li>
+
+                    </ol>
+                    <li class="prevention-heading"> Public Education and Awareness:</li>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b>education Campaigens: </b><br>Promote public awareness about the importance of preventing
+                            soil erosion and the role individuals can play
+                        </li>
+                        <li>
+                            <b>Community Involvement: </b><br>Encourage local communities to engage in erosion control
+                            and restoration efforts.
+                        </li>
+                    </ol>
+                    <li class="prevention-heading">Government Regulations and Incentives:</li>
+                    <ol class="nested-ol-list">
+                        <li>
+                            <b> Enforce Regulations: </b><br>Advocate for and support government regulations that
+                            require erosion control measures in various industries.
+                        </li>
+                        <li>
+                            <b>Incentives: </b><br>Encourage and participate in government incentive programs that
+                            promote sustainable land use and erosion prevention.
+                        </li>
+                    </ol>
+                </ol>
+            </div>
+            <br>
+            <div class="impact ">
+                <h1>Impact of Soil Pollution</h1>
+                <ol>
+                    <li class="impact-heading">
+                        Reduced Agricultural Productivity:
+                    </li>
+
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Nutrient Imbalance: </em> Nutrient Depletion: Soil pollution can alter nutrient cycling processes and deplete essential nutrients such as nitrogen, phosphorus, and potassium, limiting their availability to plants.
+                            Imbalanced Soil pH: Contamination with acidic or alkaline substances can disrupt soil pH levels, affecting nutrient uptake by plants and hindering their growth and development.
+                        </li>
+                        <li>
+                            <em>Soil Degradation: </em>Compaction: Soil pollution can lead to soil compaction, reducing soil porosity and aeration, which inhibits root growth and water infiltration, ultimately affecting plant growth.
+                            Erosion: Contaminated soils are often more prone to erosion due to changes in soil structure and decreased stability, resulting in loss of topsoil, nutrients, and organic matter essential for plant growth.
+                        </li>
+                    </ul>
+                    <li class="impact-heading">Food Insecurity: </li>
+
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Crop Contamination: </em>Soil pollution leads to the uptake of contaminants by crops, rendering them unsafe for consumption.
+                        </li>
+                        <li>
+                            <em>Nutrient Depletion: </em>Soil pollution disrupts nutrient cycles, diminishing soil fertility and hindering crop growth.
+                        </li>
+                    </ul>
+                    <li class="impact-heading"> Water Quality Degradation:</li>
+
+
+                    <ul class="nested-ul-list">
+                        <li><em>Leaching: </em> Soluble pollutants such as nitrates, pesticides, and heavy metals can leach through the soil profile and contaminate groundwater, compromising drinking water sources.
+                        </li>
+                        <li>
+                            <em>Sedimentation: </em> Erosion of polluted soil particles can result in sedimentation in rivers, lakes, and reservoirs, reducing water clarity and impairing aquatic ecosystems.
+                        </li>
+                        <li>
+                            <em>Chemical Contamination: </em>Industrial chemicals, pesticides, herbicides, and other pollutants from contaminated soil can directly enter water bodies, impacting aquatic organisms and ecosystems.
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="impact-img">
+                        <p><span>Habitat and Biodiversity Loss:</span></p>
+                        <img src="https://static01.nyt.com/images/2020/09/15/climate/15CLI-BIODIVERSITY1-alt/15CLI-BIODIVERSITY1-alt-superJumbo-v3.jpg"
+                            width="780px">
+                        <p><span> Air and Water Pollution:</span></p>
+                        <img src="https://img.freepik.com/premium-photo/polluted-river-flowing-through-industrial-area-environmental-degradation_288945-1883.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698019200&semt=ais"
+                            width="780px">
+                        <p><span>Flooding & Landslides</span></p>
+                        <img src="https://programs.wcs.org/Portals/209/Images/f18.jpg" width="780px">
+                        <!-- <p><span>Water Quality Degradation:</span></p>
+                        <img src="">
+                        <p><span></span></p>
+                        <img src=""> -->
+                    </div>
+                    <br>
+                    <li class="impact-heading">Habitat and Biodiversity Loss:</li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Disruption of Food Chains:</em> Soil pollution can disrupt food chains and ecological interactions, leading to imbalances in predator-prey relationships and cascading effects on biodiversity.
+                        </li>
+                        <li>
+                            <em>Fragmentation of Habitats:</em>Pollution-induced habitat degradation can fragment landscapes, isolating populations and limiting gene flow, which can lead to decreased genetic diversity and increased vulnerability to environmental stressors.
+                        </li>
+                    </ul>
+                    <li class="impact-heading"> Air and Water Pollution:</li>
+                    Eroded soil particles can become airborne or washed into water bodies, contributing to pollution:
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Airborne Particles: </em> Dust and fine soil particles lifted by the wind can cause air
+                            pollution, impacting respiratory health and reducing air quality.
+                        </li>
+                        <li>
+                            <em>Sediment in Water: </em>Sediment-laden water contributes to the turbidity of water
+                            bodies, which can affect aquatic ecosystems and the availability of clean drinking water.
+                        </li>
+                    </ul>
+                    <li class="impact-heading">Increased Flooding and Landslides:</li>
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Landslide Risk: </em>Eroded soil on slopes is more prone to landslides, especially
+                            during heavy rainfall or seismic events, posing a danger to communities and infrastructure.
+                        </li>
+                        <li>
+                            <em>Flooding: </em>Soil pollution can disrupt natural drainage patterns, increasing the risk
+                            of flooding in low-lying areas.
+                        </li>
+                    </ul>
+                    <li class="impact-heading"> Climate Change Implications:</li>
+
+                    <ul class="nested-ul-list">
+                        <li>
+                            <em>Carbon Release: </em>Eroded soil can release stored carbon into the atmosphere,
+                            contributing to greenhouse gas emissions.
+                        </li>
+                        <li>
+                            <em>Altered Weather Patterns: </em>
+                            Erosion can disrupt local weather patterns, making areas more susceptible to droughts and
+                            floods, both of which are influenced by climate change.
+                        </li>
+                    </ul>
+                </ol>
+
+            </div>
+            <br>
+            <div class="case-study">
+                <h1>Case Study: Soil Pollution and Disaster Risk Reduction in the  Bhopal Gas Tragedy, India
+                </h1>
+                <p class="case-study-info">Introduction:</p>
+                <p>A significant real-life case study of soil pollution in India is the Bhopal Gas Tragedy, which occurred on December 3, 1984. While primarily known for its devastating effects on human health, the incident also caused severe soil pollution.
+
+                    The tragedy occurred when a pesticide plant owned by Union Carbide India Limited (UCIL) leaked methyl isocyanate gas, a highly toxic chemical, into the atmosphere. The gas cloud enveloped the nearby city of Bhopal, resulting in thousands of immediate deaths and long-term health complications for many more.
+                </p>
+                <p class="case-study-info">Background:</p>
+                <p>The leaked chemicals didn't just dissipate into the air; they also contaminated the soil in and around the plant. The toxic substances from the gas leak seeped into the ground, polluting the soil and groundwater. Even decades after the incident, the soil in and around the factory site remains contaminated with heavy metals, pesticides, and other hazardous chemicals.
+
+                    The consequences of this soil pollution are dire. It has affected agricultural productivity, as crops grown in contaminated soil may absorb toxic substances, posing risks to human health when consumed. Additionally, the contaminated groundwater has further spread the pollution, affecting communities' access to safe drinking water.</p>
+                <p class="case-study-info">Natural Disasters Exacerbated by Soil Pollution:
+                </p>
+                <ol>
+                    <li class="case-study-info">Landslides:</li>
+                    <ul class="nested-ul-list">
+                        <li>  While Bhopal is not typically prone to landslides, soil pollution can potentially increase the risk of landslides in areas where the soil's stability is compromised. Contaminants present in the soil can weaken its structure, making it more susceptible to erosion and slope instability, which could increase the likelihood of landslides during periods of heavy rainfall or seismic activity.</li>
+                        
+                    </ul>
+                    <li class="case-study-info">Floods:</li>
+                    <ul class="nested-ul-list">
+                        <li> Soil pollution can significantly alter the soil's ability to absorb and retain water, affecting its permeability and drainage properties. In the case of Bhopal, the soil pollution resulting from the gas leak likely reduced the soil's ability to absorb water, making the region more susceptible to flooding during heavy rainfall events. Floods can then further spread the contaminants present in the soil, leading to the contamination of larger areas and posing additional risks to human health and the environment.</li>
+                        
+                    </ul>
+                    <li class="case-study-info">Water Contamination:</li>
+                    <ul class="nested-ul-list">
+                        <li>Floodwaters can carry contaminants from polluted soil into nearby water bodies, leading to water pollution. In the case of Bhopal, floodwaters could have carried toxic substances from the contaminated soil into rivers, ponds, and groundwater sources, further spreading the pollution and affecting the health of ecosystems and communities downstream.</li>
+                    </ul>
+                    <div class="case-study-img">
+                        <img src="data:image/jpeg;base64,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"
+                            width="780px">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExIWFhUXGRgYGBcWGBcWFhgXFx0YFxgVFhcbHiggGholGxUYITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFw8QGi0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALABHwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAQIDBAYABwj/xABFEAABAgQDBQUFBQUHAwUAAAABAhEAAyExBBJBBVFhcYETIpGhsQYywdHwFCNC4fEzUnJzkhUkNGKCk7IHFlNDRLPC0v/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQEhMf/aAAwDAQACEQMRAD8A9mSqEKoYDHEx1ZLmhc0RvHPAShcOC4hBhQYgnC4XPEAVHFUIVNnjs8Q5o54QqYKhc0QvCvCCTNHFURZo54QTBUPCorpMSZmibipXjniMKhSpokDlGOBiN4UGEErwoMRvHBUSCR4WI80JmhCpXhHhmaOKoQPeOeGPDXhBLmhM0R5ogxKgWSSQ50LGlb9IsKtvHZorHEJF1AdREatoSheagf60/OEFzNHZoryJwWkKFjvh7wgeTEazCkxEoxcwRwhMI8ITGkK8I8I8I8A8GFeGPCvAOUtg50ivs/aEuejtJasySSHYiovQh4diT3Fcj6QG9iEthEc1esBoXiOfOCEqWbJBUeQDn0hXiptY/cTv5cz/AImAn2fjUzpaZqHyqDhwxu1R0iw8BvZP/CSeR9TBZ4B7xzxXnYkJKEl3WrKOYSpVeDJPlEzwD3hXiMGFeAe8OeI3jngJHhXiN47NEErx2aB20NqyZAeZMCdwuo8kisBZPttIKyClaU6KZ35pFR5w4NW8c8U8HtCXNDy5iVDgajmLiLOaAkeOeI3jngJHhCYZmhHgHvAra8hMybISoAj7yh4JEPmbXlAkOosWJTLmKS4LEZgki9OcCttbXCTImSxn760EF0EEhIIIUHBrqN0AT+wSE3lgciW9Yi2lgUdjMISAyFkVOiS0SDETRUyOpWmKW0Z04SZoMsB0rsoEZSDVnp+UQFdkn7mX/CIuPFDZKvuUcvnFx4oeTEZhXhpMBHCGFhpihDCRxhHghXhwhoMQLx0pJYzEAi4Kkgjo8BJjPcX/AAn0gX7HD+6o5q/5GLRxqJkqYpKk0zpooGxUkeLP1in7HrH2WWHDuqj1946RFHIqbW/YTv5a/wDiYj2bnBmBRJZdHJJZgdbPdhaHbXP3E7+Wv/iYCH2X/wALK/h+JgpAr2X/AMLK/h+JgpFFbEFRmSwBRySd1Dp9Xi3AnDzlfbFy6ZBKSvXMFKUoM+5kmnGCsA6OhI6AdHPCPFLbLfZ5zlh2azdrAm8BW2r7SYfDuFLzK/cR3lPx0HUxj9p+2s6Y4ltKTwqv+o26DrGWVNG6I+1jFSra5pUXJJJuSXJ5mECoqIm35x0zFB23QRfkzikhSSQdCHBHIxodne2WIl0W00f5qK/qHxBjIDGC0PXiWo14LXqWzvbHDzKKJlK/z+7/AFini0aBKnqNY8J+0vaNf7O+0MzDqEpYK5TtlutD2ynUcPCLmj0iEeGSpgUkKFiARpQ1FIRZqK0v6NFUNwyv7uv+ZN/+ZUYzbe3k9spLjuYhRIqaJyJezMcm+NBMxyezMrPlUqZPAsQ4ng15A2LO8Yra86ZOxKsOqYgZZswJUQEB8xqpVWDu17xNGzme2OGL5ZhTe6SR0aIcV7XYdUuYhGZS1JKRQh8wa5GgL9OsAsZ7Oz0JSqYtJFLz1lyxLgBFLaPAbZ8tC8ufUTCSFKcFKCUuGa7WOheJ0etbFP3EvkfUxdgdsFT4eWeFOTlj4QQjQWGmFhpgEhphTEMyekKSku6nYAE2ZyWsKip3xQ8wkcTCPBCvEGCsr+NfrD5q2BLEtoGc8nLQDwm22TMUZRDKJbtJZu1A3N4lVj9vYyajETAJywkE90KIpdmH8R8Y13snMJw8ovTtFBmajK66mPPttYwmeoqllOdTi5B0ooBj0tGw9ntpFEuTK7NwZisqswAJZTg7uZiYNfIuv+L/AOqIg2ypsPO/lr4/hMLgZxUZjpKe8GcguClO4ndDdsH+7zv5a/8AiYog9k1A4SVyN6WJEFngT7L/AOFlfw/EwVUWrBAzZ6nxWIO4S0joCT5vBZ4C7ErMnLqymO6y5gHiAIMQxTo6EhYqOgF7ZYJU3DKaaJaUutTiiwmoSTpXnVoOQK9ptl/aZCkdopDd6jEKKQSAoG4fiKxNV4orGLdsqfPwju3m/up8/nFPHKKFqylwC2YpbjUPQ8Hiv/aMw3IF93OMMrpxyw/uDx+cOT2iybeH5wLM8mtC9S4EWJmKWkAg5XDkMLuRqIAkJUy7jwhwRMJBJHgIEKx8ynfvwT5Ui1gsSszMpU4cDxUBpBVxMpY/F5CCmA2oZZSid+Fskwaah94iLbcoZ/u0FATnlnIFhBMtSkPUmpSHqSaxFgROHdXKmKSGYhKsybANvFRTiID2vZOJQuShSFBScoFGNgAx4wH9osXMRh80qW47O+YJyMxcAguwD9ILbOnZ5AVkMslNUlJQQWqWMAp+xUnBmYZk1R7LMy1qUg91/dPiOIF2jWq83Ri5qUlXvISuxLgKUCTxLhNeUW5eOxExaViWpSkrXMGVClB1kOaaVEQ4cpYpLMZ0sm3uh36Vj1L2SwqBh0qyglRUSWSXrvAtSJiMEraWMCkn7OoKcmspfffM4yksKKPugcYC4TGTEZQHAAWQ76jIpXhTpHru05BzoUkIOXPQ938Bv3S9Q8eWDBHPNd2loUbgtnSpSa03vQQ0eoez8wpw0tSykJCeI1IqSWgtJxCF+6pKuRBbnGfwO0EIwsjNmAzID5Sz56B/lAT+35y8eEhako7RKAkpAOQkOCCHrffFqt9DSYWGqihrwMmrfFIZVEypjhwzqVLbr3THl/8A1H29ikz+y7YpRkSoBBKQc4Kq6ksQOkYmTtieLTVDrGaePpUwkeQf9O/aPEqxSJSppUhbuFVsks260eu5xvjWahJ47pH5a7xHn+0NmYyWiYtGKaXnSBnCVKJUUJ7xKbhwbigjeYlQymu7VtRGex00jCqAb9tKqV1/aSuHnE1cZtWxsV3s2MQRJLsJbFyylU/DXU9ITAYbEGZIMqelKVKVlSqXmCSlyTvU7eNI0qZ7Celk07oIX3iAgdwEpDgB6MLaRR2DMP8AdCACR29XrQEszWrb/MbPE4rVbHwkyWg9qtKlqLnIjIAwAAZy5pDtsn+7zv5a/wDiYuTJgAJJAADkmgAFSSd0DdtzknCzylQP3S7EH8JjSE9lpj4aUK0QOWtAdYJzVMCdwgR7M4gfZZAqSUgUSogHiQ4T1aL+0ZjS1nchR6tQQRQ9mszLKm/DbMxcP+LnpBuBuxZWVKhShZhplCU/AxZVgJZJJTW/vK+cMVZhYHy5+UhIIqshjQs34d1W+jF94qFirtLEJRLUVFnBSKE1ILCgiw8efe3PtGEzuwEsTAkb7LIY0/eZQ84mq862pNVnWvsymq3cOCcxd3cZk5gOg5wK7VPHdeCuISk5u8e9X3R8DEC8NJSh1BZO9KgK8iOO+MRFOWtJoxrxh8yYlhdhS9d/xifCyEEZwVBiAHCTcE1DjdvhuIwZI7pBYmljVmvQ20JgirnTxi3gVgrTTX87RX2bhBNWhGYJK1hFRYKI7x4V8oPI2KlJzonoVllpmEJBBcqCMtzXvO76coKrYbayzLEgk9mklWW9Tc77tB7Zm2agFVHDlgAWKCKMw9x7aQOVswgFagoHMU/s0oRvILG/IUg/gcNKlrnJVkWUzZeVYQAGchTZXSAXgPRMDtTtkKMvKtKQz9omha1AYDTttf3MITLmuZWWstSU+7XvqADMCaGrUeCeyFoKsSUNlZHus3uq3RDjcQP7OLg/sOF8tI0ryiXiAFZlAd2YgkEPR6jlSN5gva2Xh8OhIUgnvUBZg5Ltd9Kb483mksoVAcGm+rQ1GIADNVzUksxCgWDcR/TGazmt1jvbCaqWUSlZpy5q8pCQ4lAEAMRUkKaodgXrAqZOQ+JzEEhCQGNCoBSXAO4seEZ3DYvKsrWkLJBuDrcjjEQmqdzUkF3q7k1L61eFWtNtXaJXIkpeaAFKbMkhEwEkgpVwYfQi/g5SEY6WlAZOeVR3YnKSH5mAadpheCRKLPLXRwXZRUTWzBxBHZM58cioP3qC4Lj3haGD2B4Yowx1VoDWjGrcXF4b2uhBB4/MU842r5x9oFfeqZRUGFWgOFVi9tbEBSia2F6WDGBqZkYTRv2cGaaw1Sr6eDU7EqQSlUsgjUsQeIIJBgF7PTiJhINcquEGf7RmsxIVwLQorTNoAqUnKXSHJpwoONYTDzAe8AdLw6epF+8hSqVylL83B0ivKQoHKD3RqGJJ9BBF6VjE+8RQ0csNKRb+1LcKlEgpJ72YgWIYNXUvaByilKSyVOxqam3pDMJtQAZS+ZzTz9DAG9qbZxOIDTpxKf3E9xHVIv1eKCZykJISshLEEXFdwNukQLxVPdJ+ucVMbizlLJL9IitZsj2mXLQkBSwkChSSof0/J4PSPaWZMTSaFpIqGHnRwY8s2djSEgXLW5fQggmcTXKQbuCx8QYo9l2Nt2WxEw5FEk1qmpJob7rwaXikhOfMnLTvOMrWd48Pw+256SA2ca5mzeIPqIIL9pRlUgy5mVVFAEBxx71axqqi9ptozZk4rWAFCiVINCASxBBOrx6ts7bsqZKSsrSgmhSpScwUKEMDvB6R4pP7NR+7E1NfdUAaHcUAnyiApZRomp1LeFIzYPc5m35ALdrLfisCugGlecece1olLnzZiFpOZckkAhQJWnvF6hhlD84zKZiXq2/Th84VOtNfgItEE45g+UvV2FK8NIh2h+yFNPgmL6ElvdOukUsehRl5QkmlgCd0RDdm/s2IJ7ybFtFcIkkTUZ0pq5Px3/lC7PkqSn3FCoNiGorRq3hqMIoTkMhTOHLFr8oAdh8YkICSgKO87t1A/V+kagLlokSu6AqYgtlSHSkTSO+sF1H7v8QswjPYbBqUw7EjnmpxoCdIMYeSUOO1WAwGXs5ikqAOdrOBmA0374Fel4jASl1mS0KNWd1MCpSmfX3jFPE7Iw+VhIQd3dMZj+28a37VPSWG8wD5CIzt7GP+1T/QmLSj6NlSQf2APRUTS9kSD/7dA6GMxN9oMYBSYj+hMN/7gxg/9VH9CYUbFGx8M3+Hlf0PFc7NkW+yy+fZ242jLj2gxlu1SP8AQmOVt/GWE1P9CIUatGwpAIPZS/8AbiX+y5H/AIJX+2Ix429jNZyf6EiGzNt4vSem37iIUrZjZ0jSRL/2x8oye0cUmRj8yEJAQZZZIyhwEqto7xRXtzF/+e+5KIqYwrWvMpWclnU6a0A0iVHvGDxImy0zEKdKg9a9KNUW6RFtBby1aMQPQ+kZ/wBj9tYaXhUIXPlJU6u6VpBqSd8Wdobfw2VbYiSe8GHaIrRPH6aNVp4HtWYCpTcuoYFusCgdRFvFYgZqG6vjA6SsqUEg1LAE2cxMTcF9jT+8o7kKHoPjF8qV9GAOzppClOdfiBBpUwAAXJ5RNIkKieQI41L0i5NxglqKSFm9We1w/UHrEOz6qbTtJYemuesPXifva1abNFtClAECJRis34VCoDkNWKWKnpQtRKFFjcJfQaxT2ZMUB3t7p1A1bwtwiXaC2Kz/AA6at+sDpw23LAGZwdzax0jaMuasJS7l7iM8qWVrUQHqX8f1i7sRBGIY0ACgORf5xeEXMVi0SlZSO8L00MWJftDKSNfCAvtAv70tqAfWKScMVE5AVN6G0IRp/wDuBBbKDRnLUAiaVteWssC5qwAeM0MDMSlRymoB8CDvvSLmxJDTgTZLZiN5IpAgkcQsuQoitKkXJF9NRDUdqaqWoitMy9KVd4WXNSMrktnmZuRWph4hMOweKS5BJoVEVsHdIgIvvcxAJpvKn8B6RKlKySkzDRnYqF90LisUUqJAocpccjX1HWOwuIKmNal7u4FBziB6SsFio0fVVWDjoYlTMqHUG3ha60LD3eUWp0z3Sd/wIirJNR/q6d1UA2epJS6CAX/EpRBFXbujWIpKCalaCP8AKVcfO0T46YlGYKsOzvWvfJ8yYpKxAMt5dFBTE0PGzUoRAW0JZnUkhqlKqvWgB6Qs5aAkd5j/ABJ+MC5c+YHZXGyb23Q2ZNUoMqo+vlAEUzkMwckh/eTVrtWGKxUtJJKCX17pfjfhzihnOUIDMH03uDXkT4w2dMWSpy4JzENTMxDsNWJHWCL39oyVUSlQLE1SLCI1bUlAsUq40Ry374ohwXYOzO1gSXF95hVyRcgeB+jFBzBqRMGYCja5X8olMgbvT5QFw89ctJCCAOXzgjitoBAlpU+Yy0zC1qu54WiIsCQnd6fKFVKQzNXp8ucRyzmDizBXQ29YkKCz0iCnNDKSAzFbGgNK8KWi5MlDc3AgQPxJ78v+MfG/CL+0lNOUARelwLCCjGysLIWyPsi5q6nurKXArYDdBDF7MkoBfZs5LEVVNO61Az6xm9nY4y15kn8JDgvWx8ov4vaZWBVTuCXp+FvWBWKn4cgvWhd2sxeHfYJylKIPeDG4S96pNBo8bzFSEkEMCK0539YD7UwUxJEyWm6Ql7i7P+fONXWtZ7Z2HmZ2ILA1ez87GDqcMohNgQK0D1JuSLwq8Jm7pUBYBaTfQsNQ715xHJ2YApgtbi+YBunQxEJmUlTEtUWp7tfGvnEs0qbeCFUJNSUnRq7uMWxJLMFjw/OK+IxiEMhc5lGzX8NICrJku+YEGt9DVqXiSbhyoM9yPqsSKxcsH33toSa09TF+TlU1QdxEVAoYAosBW/5Q1WGZYU5DAhmoHL3+cGyAzfnDUJFWREGcn4NC1ZjmskHu3r+v1eUYUpBKaku9LetBTzg5MSqjIiHsTXu3EFqrhgwcudFXavvfXOHTJSTRGV01DCiauwG6JpMgo90APfnEpKtYpQJWBWQxaqlP/qUTQRTOz5xL5GD2e3HjeNQzv3QfjDshd3IH1eCUClYSYaKSMu4kcNIuJkEZWQyU0A1Av1FBXjFwYb9YUSdHPhCFU8qyWYXO9rEAvxeEwuHKCVLajltbH1i8JTUJPWHIkuSHpW4HBqxCguOwqpiVCtSkuWDs7gB71igJGTMKvRxX8NHszRrpODAsR1MOCGFO9ud4pWRKS5FQzOee6OQmjuY1hTmFQDzDgUY+rRUVs9lEKUG5N16xFAVIsyntTidIXFFIDCu88d25o0SMJKFcn6xwlIf3R4CvG0EY+Ya/XmYnE02LaAXpXSNUZEs3Sk9APhHLwUk/gHp0ijNqnOSaV0FhwEWdr4XOZJKA3ZIBNczd5wNBpVoNowUtNQhvGOWoDefgK/GBVKWlgL2bTkPKFmBWgf6fdFkoQS993TlCplpd9YkKBTkK7RAUj8QL332ax4xf2rMSCpw5e9yebUsPMQQUkG8NVJQzMIkANGKQN5+teMWcNOcUc8+L/LzizPUhLsA6WJAFnhuIWkMGqa0DHygH4vGzEgqKCElxrdLuH0vA3FbcUtISEqMoO4LlJWxHdsHZg1bm8FMbiQgnMtIG5nVYnU1YcIyu2cQlRAl0SkGgDAE0LeRfj41oTVtAEBctORRDGjFjQkbwGcecEcRtVUxIKbZUMKmiUpTcgGpBPWMynEzlBJJWoW7xKnSG3kkdNw3QcwSUsAlJDO4NfDT6EE044xZUAO6K1DO41rAOfhyFElRc1KiDV9x59I00yRlUO9ruAo2pF7w8y6ksMz0+LfWkBmJcpSCFqLgcSbbmf6EEtj49cxeVACUsSX3tax1PrF2dhUkd5AarPqC706xZwJShJShLUokkmndBNdX3NbwqJNnYha6qtyqWe1K0a8WF4gNlF6eHzrbgYoycQVkAH3gLAuljUKT1uL9ISUBlBNGqCSCq+ta8oii8smnFjv6jfDETqs+/j0G+3nFeRjHACSpqi1XavoTTjHFdkkOSL6EOlzXRlgcawE5WA7t8aXtCLUPD6YRVnYoKpYEuFOxIIoQ28lukVMTtEBSUKIuavQAGwfwgCQmtoTyYkdIlC3fu2PlT5xRGNSaAuTXdv/E24eQh2HxKQSk0FFWvoWJueUBOZlQluu7jEixRWW4BLCppESpoQkPlA94vWl80RnaLVdJILEAi7ixtbSAqYWYrtAtjolQ0ykOerl+kFM4ByktUO1aHc7brCKmExYXZqu3AjukWo5DePGGLxIzG1XOosKNrqTAE0TWJB6U+HnCzVJU+ViHY8Ddm1DVLDW0DJaQpg5KbsP3t78gfGJTJAACdC+/z8PGCL0pBqdAQKs/h8/0iCDYn6HOJpCUlJLVsCdQHIG7WFmAmpYcjWv6+UFVFceXrcQilAAOWJ+g0TzkNepfy01rvgRtRayksnloQxDVFqtwgh42oAvIzGu9zZQLbiCDFpGIBKRq5pWgG9+cZEYKcpTsRzJ7rl2rpTzgpK2bMUoKUq1AHItr6QGhEwtd+X6xVUz1FvjSGpcNUMAB84TIXNup+MA4q4wilcWaI1rO4Pvfq8KFcXLeHCCHonNrDhNO764CIgd0NMpxX1oxiKqz8JmVnzqBd6U3eUTTZSSXKS4DUNK7hDgoCjPDCVA2p9ekQDMdsqYqpBUa9KFiaW3vESdkTMhCmzFixIo/O4rXkY0G0ccnMCSQH3X09QacISZPJKQw1aooB+hjTWgUrZcwBi+8KB7oIpe/6xaw+HKbGoIFSfq9OkX5+MYAM6LEhiwGjdGEQLxAvkISN1yW/KCcWgqhKuF7uaF/CIvtYz0ckktV6ivWnpFTtJij7vdsQ7nU1F+vCEnSUkAgFOXnzIB1N4gImYCEqJ7jsSNCNGu/SB6dod8ElGR1hyXVvAL0rQ13DcAYsWs9mpKXDgEkkMwZ36OHobxnsRKXLUlbMaEG4zc6uXirjV4fBy+zCz7xeUOyJUoLSoqzAnclxmIF3exiRbHOmYElICilTHu5mrVtXPMxnUY+ZLZQSMxdWpHfBBcPvVSH7Rx6lBSS4UwBNS4sUkac4A3JQqVmdigpBdRGZ3DhLjcrKD6Q7EYhytQdSkpAYhgqWaqHNJLPqw5Rm8HOURkUTlAJy3exAA3uL8It4XaM1LgXDpJYFq6dX8IDQKkoUSMqaJCilJGYgmqSBVJISKcYE7TmtLUNCwQSzj3NTUk5QX5w3CT3mdoQAFVL90kglzurRhwETbRw5nZCBlSklge8Tmr1cC7mACysWsMouG7oAZ6hteUGJU1KmCSqhpX3Xpc6b+ZinipTJTWhJBD1DD0+RjpaWCu6wNQSLgmqTvctFSiMjGnKkzCTRuOqW4iluI6VRiSmY4QQnvJe4zEA0Joatxsd0U8Opal5ye9Uh6cHawHzESYmWr3S6iHUpLnK5sXFj73jAFUzBLWogMtRYJAITUFSj5kdIgw2LM5SVFIq4C6DjUU0AhZeZRlIWLlioEGpBBNaav0ffDtmYfKTKIJKFJUAR7yge8z3oFRAX2alKnDEiooGJPz//AFDpq0B3cEgB23OWbnV4HTtpZZqU5MpBYMQzKq5a30DFVONzGbMILptuIN2D0LDebwB4YplAFbtepuzOOtOkWE4tCmJFXFLDcelYzUtLzAoKyuEhnqgUUoJegBfzixgppm5szACjMAQQXG8VAHnAHwoaOwDPawv5w9cjcGvQjdugaMW2UkFulxoT1HjDTtJAdLjOmstLuWYACmrrsd0BcWmlAHbcX9NafRiOgFxXw8OhiNw5GYvlSAoNdgDSrV1i0qQkjKXJYE6eHiYJEGVJeod62NIjTkWCxBbe+/8AIw3EYVAch3oaE2FN+tXirJwFCHfdcb3dukBZcElLfVRSOUlLXNd3p5xB9jLipYVdrnQfW+JV4Y6q3PV62cRA5DXbz+HnCzQCG05xAuQtgcxU1DwY6B+UckE+8lVeWmvCAQpTvdj9esIuQSWzcv11juzBdgRX9fWHFADd4jcKmnGAt4iQhyL+Opfyb0iGdK15E6ZenP4RHNxD6BwCxu/jvfyh8wlQ8mJ6wb1FOyDR08NdXYa/nFczEZmZy4ZyBpvpQW8YlnSXrpTXjfjbhEa5Nc4ID6i9tHtBEk2YLOAQPW9uH1vt4OeKJVUaZmYZn06jximmWEqI1D2uNzjUVGsSYmSSSSXLUNDUkNyAD+BgHTMEyu7XUd0gB3LB9G6VMU5+BUpKsyHagPCl67ov4YKIZzcNv3mu7VuEXpkl6PpepO4B9NYqMvM2eoFKAl1EAKctlFwyRZyx6RKjYxPvNcuAwcOMtfrzjQKAa1d/CsRJmB2T+HhcnQwUOXsxOgZSXYgDVTs1qOzwv2JCczNe4vXiOcW1IBsSG5cbv9UhqUvmqHfwIZuZJbxgiEYAPZ0swAozWD/CK87BqUE5aDUEkiuu/Tfv3wTyqOXKAP3tytzbiC3hEqZL1UaGlau2h66cIAfI2QsJBIQoXopKhUEMGJbX6EM7jKSohnpagrv5QQl4Sg71CXZzbf5+UMVs5JKlGvAuOR4/lADJuEStJIAAD2oTTSOGHyi1DQVsGLVbfU3g1LQkDKH48/ziRUl9WqCx4dNYARJBzBgUl1e61qgk/QuLxPjsIpaKKfuV5mug7ocnw6wQDAggakabnu0SKBlgrZIUlxzAcl9/HgYACrDFR0ZIDA1KiDUh633/ABiQAKOUgmzhknpS94mlz1KUldCMyfwhISkuaaAM1dCIKTQlSyCgmtMrtWrkvUtACuyzEhiCQxegpQPSndV5Q7D4JKQUHU10PBjv+ZgmpKWzoBANTSgbXfpFZKSQBQqFgDYkizcDARzMHShZiH/LxgZidnOsl2JrTgXrwYfTQYM0JdxR9On51Ed2aXoSxILtQVIpxcP0gBuzJijLLkAVtWofuuAQA9d1IvyB3fe5uTxoL+e+JElLHKRys7tpvtESkuTQgEsGqzAO/wA4Imk13GnO+loUsk1o1/g3n4Q2WMoAJrdugDkne0NxBFQXe6aA7xfzgFnZWGR97GjWZvHdCzgLK0s/pA5Ci9FneTwsB1IETyFsKGlNBQjrXWIJwUhVPePoHa9zfi0PUl7G9S9uh5xUkSquAHJ7xu50blpE+QuC7FNwwYtoRp+kAmJw5rZvH4w1clVPdPOvkOJiYS1sGvxN+I3mK+JmlICjQClvk0B//9k="
+                            width="780px">
+                    </div>
+                </ol>
+                <p class="case-study-info">Importance of Soil Conservation in Disaster Risk Reduction:
+                </p>
+                <p>Soil conservation measures in the Loess Plateau have played a pivotal role in disaster risk
+                    reduction:</p>
+                <ul class="nested-ul-list">
+                    <li><b>Terracing and Reforestation:</b><br>Terracing techniques and reforestation efforts have
+                        stabilized slopes and reduced the risk of mudslides. Trees and vegetation help anchor the soil,
+                        preventing erosion.
+                    </li>
+                    <li><b>Contour Farming:</b><br>The implementation of contour farming practices has improved water
+                        retention in the soil, reducing the severity of floods during heavy rainfall events.</li>
+                    <li><b>Cover Crops and Reduced Tillage:</b><br>These practices have enhanced soil quality, making it
+                        more resilient to drought. They retain soil moisture and mitigate the impacts of water scarcity.
+                    </li>
+                    <li><b>Community Engagement:</b><br>Local communities have been actively involved in soil
+                        conservation efforts, increasing awareness and participation in disaster risk reduction.</li>
+                </ul>
+                <p class="case-study-info">Conclusion:</p>
+                <p>The Bhopal Gas Tragedy resulted in severe soil pollution, compounding the environmental and health impacts of the industrial disaster. Contaminants from the gas leak permeated the soil, affecting its quality and posing risks to agricultural productivity and groundwater safety. Soil pollution exacerbated the consequences of natural disasters like floods, erosion, and water contamination, further spreading toxins and complicating remediation efforts. Decades after the tragedy, the contaminated soil continues to threaten the well-being of communities in Bhopal, highlighting the urgent need for comprehensive environmental management and remediation strategies to mitigate the long-lasting effects of soil pollution on both ecosystems and human health.</p>
+                <br>
+                <br>
+                <h2>Bhopal Gas Tragedy documentry and images :</h2>
+                <div class="case-study-video">
+                    <iframe width="780px" height="550px"
+                        src="https://www.youtube.com/embed/pGSJc_5p2og?si=Y_6suAe4Jiy__twA" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    
+                </div>
+                <br>
+                <br>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="div-foot">
+            <div class="div-foot-info">
+                <h3>Bhoomi.com</h3>
+                <p class="p-foot-info-website">Our Bhoomi.com website is small steo to initiate the awaraness
+                    reggarding Enviornment and Climate change
+                </p>
+            </div>
+            <div class="div-foot-college">
+                <h3>Dedicated by :</h3>
+                <p class="p-foot-college-info">Student of</p>
+                <p class="p-foot-college-info">Lovely professional University ,Punjab (India)</p>
+                <p class="p-foot-college-info">Guidence by : <big><b>Dr.Sandeep Kumar</b></big> </p>
+            </div>
+            <div class="div-foot-contact">
+                <div clas="div-foot-social">
+                    <h3>Contact-us</h3>
+                    <div class="">Gmail: <a href="mailto:sakshamuppal3@gmail.com">sakshamuppal3@gmail.com</a></div>
+                    <div class=""> Phone number:<a href="tel:+918445072507">8445072507</a>"></div>
+                    <div class="footfoot">
+                        <!-- <a href="https://instagram.com/itsur_mayur?igshid=YTQwZjQ0NmI0OA=="><img
+                                src="https://wallpapers.com/images/hd/instagram-black-background-1920-x-1440-p20ti2xt91fe1h1d.jpg"
+                                width="90px"></a> -->
+                        <!-- <a href=" https://www.snapchat.com/add/itsur-mayur?share_id=Cl6JQ_gMYXc&locale=en-GB" class="ahref"><img
+                                src="https://static1.xdaimages.com/wordpress/wp-content/uploads/2021/05/Snapchat-Logo-Featured-Image.jpg"
+                                width="120px"></a> -->
+                    </div>
+                </div>
+
+            </div>
+
+        </footer>
+       
+</body>
+
+</html>
